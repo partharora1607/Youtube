@@ -1,5 +1,4 @@
 import Logo from "../images/Logo.png";
-import Menu from "../images/Menu.png";
 import user_icon from "../images/user_icon.jpg";
 
 const Header = () => {
@@ -7,7 +6,6 @@ const Header = () => {
     <div className="mt-5 ml-10 flex pb-2 ">
       {/* Logo and Menu */}
       <div className="flex fixed">
-        <img alt="Menu-icon" src={Menu} className="h-[3rem] rounded-full cursor-pointer" />
         <img alt="youtube-logo" src={Logo} className="h-[3rem] ml-7" />
       </div>
 

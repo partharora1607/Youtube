@@ -7,15 +7,8 @@ const VedioCard = (props) => {
   const { channelTitle, title, thumbnails, channelId, publishedAt } = snippet;
   const { viewCount } = statistics;
 
-  const onCardClick = () => {
-    // console.log("ccard clicked!");
-  };
-
   return (
-    <div
-      className="inline-block p-2 max-w-sm mr-5 mb-3 hover:cursor-pointer ml-3 hover:bg-gray-100 hover:shadow-lg"
-      onClick={onCardClick}
-    >
+    <div className="inline-block p-2 max-w-sm mr-5 mb-3 hover:cursor-pointer ml-3 hover:bg-gray-100 hover:shadow-lg">
       <img className="rounded-xl w-full h-60 object-cover" src={thumbnails.maxres.url} alt="thumbnails" />
       <p className="break-words w-full text-lg font-medium">{truncateTitle(title, 65)}</p>
       <h2 className="text-gray-600">{channelTitle}</h2>
