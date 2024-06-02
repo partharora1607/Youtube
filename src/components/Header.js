@@ -4,12 +4,15 @@ import user_icon from "../images/user_icon.jpg";
 
 const Header = () => {
   return (
-    <div className="mt-5 ml-10 flex pb-2">
-      <div className="flex">
+    <div className="mt-5 ml-10 flex pb-2 ">
+      {/* Logo and Menu */}
+      <div className="flex fixed">
         <img alt="Menu-icon" src={Menu} className="h-[3rem] rounded-full cursor-pointer" />
         <img alt="youtube-logo" src={Logo} className="h-[3rem] ml-7" />
       </div>
-      <div className="flex ml-[32rem] h-[3rem]">
+
+      {/* Search Bar */}
+      <div className="flex ml-[45rem] h-[3rem]">
         <input
           type="text"
           className="pl-10 text-xl border-blue-400 border-2 w-[50rem] rounded-l-full"
@@ -19,6 +22,8 @@ const Header = () => {
           Search
         </button>
       </div>
+
+      {/* User Icon */}
       <div className="flex">
         <img src={user_icon} alt="user-icon" className="h-20 -mt-4 ml-[40rem]" />
       </div>

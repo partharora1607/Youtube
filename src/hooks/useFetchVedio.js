@@ -1,9 +1,13 @@
 import { useEffect } from "react";
 import { API_KEY } from "../Utils/constants";
+import { useDispatch } from "react-redux";
+import { updateVedios } from "../Utils/Store/Slice/vedioSlice";
 const useFetchVedio = () => {
+  const dispatch = useDispatch();
+
   useEffect(() => {
     fetchData();
-  });
+  }, []);
 
   const fetchData = async () => {
     const data = await fetch(
@@ -11,7 +15,8 @@ const useFetchVedio = () => {
         API_KEY
     );
     const json = await data.json();
-    console.log(json);
+    dispatch(updateVedios(json?.items));
+    // console.log(json);
   };
 };
 

@@ -22,7 +22,7 @@ import {
 
 const SideBar = () => {
   return (
-    <div className="text-xl text-gray-700 w-[280px] py-5 overflow-y-auto h-[70rem]  font-sans">
+    <div className="text-xl text-gray-700 w-[280px] py-5 overflow-y-auto h-[70rem] mr-10 font-sans">
       <div className="my-5 px-10">
         <ul>
           <div className="flex my-6">
