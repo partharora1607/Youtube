@@ -23,15 +23,15 @@ export const subscriptions_svg = (
 
 export const history_svg = (
   <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       <path
         d="M12 8V12L14.5 14.5"
         stroke="#1C274C"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></path>
       <path
         d="M5.60423 5.60423L5.0739 5.0739V5.0739L5.60423 5.60423ZM4.33785 6.87061L3.58786 6.87438C3.58992 7.28564 3.92281 7.61853 4.33408 7.6206L4.33785 6.87061ZM6.87963 7.63339C7.29384 7.63547 7.63131 7.30138 7.63339 6.88717C7.63547 6.47296 7.30138 6.13549 6.88717 6.13341L6.87963 7.63339ZM5.07505 4.32129C5.07296 3.90708 4.7355 3.57298 4.32129 3.57506C3.90708 3.57715 3.57298 3.91462 3.57507 4.32882L5.07505 4.32129ZM3.75 12C3.75 11.5858 3.41421 11.25 3 11.25C2.58579 11.25 2.25 11.5858 2.25 12H3.75ZM16.8755 20.4452C17.2341 20.2378 17.3566 19.779 17.1492 19.4204C16.9418 19.0619 16.483 18.9393 16.1245 19.1468L16.8755 20.4452ZM19.1468 16.1245C18.9393 16.483 19.0619 16.9418 19.4204 17.1492C19.779 17.3566 20.2378 17.2341 20.4452 16.8755L19.1468 16.1245ZM5.14033 5.07126C4.84598 5.36269 4.84361 5.83756 5.13505 6.13191C5.42648 6.42626 5.90134 6.42862 6.19569 6.13719L5.14033 5.07126ZM18.8623 5.13786C15.0421 1.31766 8.86882 1.27898 5.0739 5.0739L6.13456 6.13456C9.33366 2.93545 14.5572 2.95404 17.8017 6.19852L18.8623 5.13786ZM5.0739 5.0739L3.80752 6.34028L4.86818 7.40094L6.13456 6.13456L5.0739 5.0739ZM4.33408 7.6206L6.87963 7.63339L6.88717 6.13341L4.34162 6.12062L4.33408 7.6206ZM5.08784 6.86684L5.07505 4.32129L3.57507 4.32882L3.58786 6.87438L5.08784 6.86684ZM12 3.75C16.5563 3.75 20.25 7.44365 20.25 12H21.75C21.75 6.61522 17.3848 2.25 12 2.25V3.75ZM12 20.25C7.44365 20.25 3.75 16.5563 3.75 12H2.25C2.25 17.3848 6.61522 21.75 12 21.75V20.25ZM16.1245 19.1468C14.9118 19.8483 13.5039 20.25 12 20.25V21.75C13.7747 21.75 15.4407 21.2752 16.8755 20.4452L16.1245 19.1468ZM20.25 12C20.25 13.5039 19.8483 14.9118 19.1468 16.1245L20.4452 16.8755C21.2752 15.4407 21.75 13.7747 21.75 12H20.25ZM6.19569 6.13719C7.68707 4.66059 9.73646 3.75 12 3.75V2.25C9.32542 2.25 6.90113 3.32791 5.14033 5.07126L6.19569 6.13719Z"
@@ -43,13 +43,13 @@ export const history_svg = (
 
 export const channel = (
   <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       <path
         fill="none"
         stroke="#000000"
-        stroke-width="2"
+        strokeWidth="2"
         d="M2,9 L22,9 L22,22 L2,22 L2,9 Z M21,2 L13,9 L11,9 L3,2"
       ></path>
     </g>
@@ -58,18 +58,18 @@ export const channel = (
 
 export const playlist = (
   <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
-      <path d="M11 14L3 14" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>{" "}
-      <path d="M11 18H3" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>{" "}
+      <path d="M11 14L3 14" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"></path>{" "}
+      <path d="M11 18H3" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"></path>{" "}
       <path
         d="M18.875 14.1183C20.5288 15.0732 21.3558 15.5506 21.4772 16.2394C21.5076 16.4118 21.5076 16.5881 21.4772 16.7604C21.3558 17.4492 20.5288 17.9266 18.875 18.8815C17.2212 19.8363 16.3942 20.3137 15.737 20.0745C15.5725 20.0147 15.4199 19.9265 15.2858 19.814C14.75 19.3644 14.75 18.4096 14.75 16.4999C14.75 14.5902 14.75 13.6354 15.2858 13.1858C15.4199 13.0733 15.5725 12.9852 15.737 12.9253C16.3942 12.6861 17.2212 13.1635 18.875 14.1183Z"
         stroke="#1C274C"
-        stroke-width="1.5"
+        strokeWidth="1.5"
       ></path>{" "}
-      <path d="M3 6L13.5 6M20 6L17.75 6" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>{" "}
-      <path d="M20 10L9.5 10M3 10H5.25" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"></path>{" "}
+      <path d="M3 6L13.5 6M20 6L17.75 6" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"></path>{" "}
+      <path d="M20 10L9.5 10M3 10H5.25" stroke="#1C274C" strokeWidth="1.5" strokeLinecap="round"></path>{" "}
     </g>
   </svg>
 );
@@ -83,22 +83,22 @@ export const watch_later = (
     xmlns="http://www.w3.org/2000/svg"
     transform="matrix(-1, 0, 0, 1, 0, 0)rotate(-45)"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
     <g
       id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeLinecap="round"
+      strokeLinejoin="round"
       stroke="#CCCCCC"
-      stroke-width="0.24000000000000005"
+      strokeWidth="0.24000000000000005"
     ></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
         d="M4.51555 7C3.55827 8.4301 3 10.1499 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3V6M12 12L8 8"
         stroke="#000000"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></path>{" "}
     </g>
   </svg>
@@ -106,16 +106,16 @@ export const watch_later = (
 
 export const Liked = (
   <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
         d="M8 10V20M8 10L4 9.99998V20L8 20M8 10L13.1956 3.93847C13.6886 3.3633 14.4642 3.11604 15.1992 3.29977L15.2467 3.31166C16.5885 3.64711 17.1929 5.21057 16.4258 6.36135L14 9.99998H18.5604C19.8225 9.99998 20.7691 11.1546 20.5216 12.3922L19.3216 18.3922C19.1346 19.3271 18.3138 20 17.3604 20L8 20"
         stroke="#000000"
-        stroke-width="1.5"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></path>{" "}
     </g>
   </svg>
@@ -131,14 +131,8 @@ export const trending = (
     transform="matrix(-1, 0, 0, 1, 0, 0)"
     stroke="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g
-      id="SVGRepo_tracerCarrier"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      stroke="#CCCCCC"
-      stroke-width="1.088"
-    ></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round" stroke="#CCCCCC" strokeWidth="1.088"></g>
     <g id="SVGRepo_iconCarrier">
       <title></title>{" "}
       <g data-name="Layer 97" id="Layer_97">
@@ -159,15 +153,15 @@ export const shopping_bag = (
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     stroke="#000000"
-    stroke-width="0.00024000000000000003"
+    strokeWidth="0.00024000000000000003"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M16.5285 6C16.5098 5.9193 16.4904 5.83842 16.4701 5.75746C16.2061 4.70138 15.7904 3.55383 15.1125 2.65C14.4135 1.71802 13.3929 1 12 1C10.6071 1 9.58648 1.71802 8.88749 2.65C8.20962 3.55383 7.79387 4.70138 7.52985 5.75747C7.50961 5.83842 7.49016 5.9193 7.47145 6H5.8711C4.29171 6 2.98281 7.22455 2.87775 8.80044L2.14441 19.8004C2.02898 21.532 3.40238 23 5.13777 23H18.8622C20.5976 23 21.971 21.532 21.8556 19.8004L21.1222 8.80044C21.0172 7.22455 19.7083 6 18.1289 6H16.5285ZM8 11C8.57298 11 8.99806 10.5684 9.00001 9.99817C9.00016 9.97438 9.00044 9.9506 9.00084 9.92682C9.00172 9.87413 9.00351 9.79455 9.00718 9.69194C9.01451 9.48652 9.0293 9.18999 9.05905 8.83304C9.08015 8.57976 9.10858 8.29862 9.14674 8H14.8533C14.8914 8.29862 14.9198 8.57976 14.941 8.83305C14.9707 9.18999 14.9855 9.48652 14.9928 9.69194C14.9965 9.79455 14.9983 9.87413 14.9992 9.92682C14.9996 9.95134 14.9999 9.97587 15 10.0004C15 10.0004 15 11 16 11C17 11 17 9.99866 17 9.99866C16.9999 9.9636 16.9995 9.92854 16.9989 9.89349C16.9978 9.829 16.9957 9.7367 16.9915 9.62056C16.9833 9.38848 16.9668 9.06001 16.934 8.66695C16.917 8.46202 16.8953 8.23812 16.8679 8H18.1289C18.6554 8 19.0917 8.40818 19.1267 8.93348L19.86 19.9335C19.8985 20.5107 19.4407 21 18.8622 21H5.13777C4.55931 21 4.10151 20.5107 4.13998 19.9335L4.87332 8.93348C4.90834 8.40818 5.34464 8 5.8711 8H7.13208C7.10465 8.23812 7.08303 8.46202 7.06595 8.66696C7.0332 9.06001 7.01674 9.38848 7.00845 9.62056C7.0043 9.7367 7.00219 9.829 7.00112 9.89349C7.00054 9.92785 7.00011 9.96221 7 9.99658C6.99924 10.5672 7.42833 11 8 11ZM9.53352 6H14.4665C14.2353 5.15322 13.921 4.39466 13.5125 3.85C13.0865 3.28198 12.6071 3 12 3C11.3929 3 10.9135 3.28198 10.4875 3.85C10.079 4.39466 9.76472 5.15322 9.53352 6Z"
         fill="#0F0F0F"
       ></path>{" "}
@@ -177,16 +171,16 @@ export const shopping_bag = (
 
 export const music = (
   <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
         d="M12.5 8.89001V18.5M12.5 8.89001V5.57656C12.5 5.36922 12.5 5.26554 12.5347 5.17733C12.5653 5.09943 12.615 5.03047 12.6792 4.97678C12.752 4.91597 12.8503 4.88318 13.047 4.81761L17.447 3.35095C17.8025 3.23245 17.9803 3.17319 18.1218 3.20872C18.2456 3.23982 18.3529 3.31713 18.4216 3.42479C18.5 3.54779 18.5 3.73516 18.5 4.10989V7.42335C18.5 7.63069 18.5 7.73436 18.4653 7.82258C18.4347 7.90048 18.385 7.96943 18.3208 8.02313C18.248 8.08394 18.1497 8.11672 17.953 8.18229L13.553 9.64896C13.1975 9.76746 13.0197 9.82671 12.8782 9.79119C12.7544 9.76009 12.6471 9.68278 12.5784 9.57512C12.5 9.45212 12.5 9.26475 12.5 8.89001ZM12.5 18.5C12.5 19.8807 10.933 21 9 21C7.067 21 5.5 19.8807 5.5 18.5C5.5 17.1192 7.067 16 9 16C10.933 16 12.5 17.1192 12.5 18.5Z"
         stroke="#000000"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></path>{" "}
     </g>
   </svg>
@@ -194,13 +188,13 @@ export const music = (
 
 export const movies = (
   <svg width="32px" height="32px" viewBox="0 0 24 24" fill="#000000">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       <title>ic_fluent_movies_and_tv_24_regular</title> <desc>Created with Sketch.</desc>{" "}
-      <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="🔍-Product-Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         {" "}
-        <g id="ic_fluent_movies_and_tv_24_regular" fill="#212121" fill-rule="nonzero">
+        <g id="ic_fluent_movies_and_tv_24_regular" fill="#212121" fillRule="nonzero">
           {" "}
           <path
             d="M19.7286477,3.91709009 L19.7796475,4.07673953 L20.3309222,5.99926292 C20.4355805,6.36424991 20.2508505,6.74366136 19.9126449,6.89230405 L19.8167039,6.92693721 L9.08979429,10.0020329 L20.2488588,10.0029698 C20.6285546,10.0029698 20.9423498,10.2851237 20.9920122,10.6511993 L20.9988588,10.7529698 L20.9988588,19.2509821 C20.9988588,20.713514 19.8571542,21.9093864 18.4163811,21.9959633 L18.2488588,22.0009821 L5.75,22.0009821 C4.28746816,22.0009821 3.09159572,20.8592775 3.00501879,19.4185045 L3,19.2509821 L2.99979429,10.8590329 L2.47803395,9.03789737 C2.07490554,7.63202154 2.84275532,6.16777873 4.20385145,5.68742476 L4.36350088,5.63642498 L16.3781751,2.19127259 C17.7840509,1.78814418 19.2482937,2.55599396 19.7286477,3.91709009 Z M19.498,11.502 L4.5,11.502 L4.5,19.2509821 C4.5,19.8550436 4.92847749,20.3590287 5.4980814,20.4755866 L5.62219476,20.4945285 L5.75,20.5009821 L18.2488588,20.5009821 C18.8960675,20.5009821 19.4283927,20.0091075 19.4924052,19.3787874 L19.4988588,19.2509821 L19.498,11.502 Z M6.27268011,6.6494258 L4.77695691,7.07831752 C4.15481999,7.25671241 3.7786565,7.8762725 3.89085867,8.49982068 L3.91988247,8.62445396 L4.26421826,9.82529556 L4.55930489,9.74043653 L6.27268011,6.6494258 Z M11.029003,5.28557216 L8.31151617,6.06479896 L6.59814094,9.15580969 L9.31562776,8.37658289 L11.029003,5.28557216 Z M15.7862871,3.92144289 L13.0688003,4.70066969 L11.3554251,7.79168042 L14.0719506,7.01272925 L15.7862871,3.92144289 Z M17.6334765,3.68788446 L16.1127092,6.42755115 L18.6812212,5.6912865 L18.3377549,4.49019556 C18.2305941,4.11648136 17.96425,3.83153666 17.6334765,3.68788446 Z"
@@ -216,13 +210,13 @@ export const movies = (
 
 export const live_svg = (
   <svg width="32px" height="32px" viewBox="0 0 24 24" fill="#000000">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       <title>ic_fluent_live_24_regular</title> <desc>Created with Sketch.</desc>{" "}
-      <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="🔍-Product-Icons" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         {" "}
-        <g id="ic_fluent_live_24_regular" fill="#212121" fill-rule="nonzero">
+        <g id="ic_fluent_live_24_regular" fill="#212121" fillRule="nonzero">
           {" "}
           <path
             d="M5.98959236,4.92893219 C6.28248558,5.22182541 6.28248558,5.69669914 5.98959236,5.98959236 C2.67013588,9.30904884 2.67013588,14.6909512 5.98959236,18.0104076 C6.28248558,18.3033009 6.28248558,18.7781746 5.98959236,19.0710678 C5.69669914,19.363961 5.22182541,19.363961 4.92893219,19.0710678 C1.02368927,15.1658249 1.02368927,8.83417511 4.92893219,4.92893219 C5.22182541,4.63603897 5.69669914,4.63603897 5.98959236,4.92893219 Z M19.0710678,4.92893219 C22.9763107,8.83417511 22.9763107,15.1658249 19.0710678,19.0710678 C18.7781746,19.363961 18.3033009,19.363961 18.0104076,19.0710678 C17.7175144,18.7781746 17.7175144,18.3033009 18.0104076,18.0104076 C21.3298641,14.6909512 21.3298641,9.30904884 18.0104076,5.98959236 C17.7175144,5.69669914 17.7175144,5.22182541 18.0104076,4.92893219 C18.3033009,4.63603897 18.7781746,4.63603897 19.0710678,4.92893219 Z M8.81801948,7.75735931 C9.1109127,8.05025253 9.1109127,8.52512627 8.81801948,8.81801948 C7.06066017,10.5753788 7.06066017,13.4246212 8.81801948,15.1819805 C9.1109127,15.4748737 9.1109127,15.9497475 8.81801948,16.2426407 C8.52512627,16.5355339 8.05025253,16.5355339 7.75735931,16.2426407 C5.41421356,13.8994949 5.41421356,10.1005051 7.75735931,7.75735931 C8.05025253,7.46446609 8.52512627,7.46446609 8.81801948,7.75735931 Z M16.2426407,7.75735931 C18.5857864,10.1005051 18.5857864,13.8994949 16.2426407,16.2426407 C15.9497475,16.5355339 15.4748737,16.5355339 15.1819805,16.2426407 C14.8890873,15.9497475 14.8890873,15.4748737 15.1819805,15.1819805 C16.9393398,13.4246212 16.9393398,10.5753788 15.1819805,8.81801948 C14.8890873,8.52512627 14.8890873,8.05025253 15.1819805,7.75735931 C15.4748737,7.46446609 15.9497475,7.46446609 16.2426407,7.75735931 Z M12,10.5 C12.8284271,10.5 13.5,11.1715729 13.5,12 C13.5,12.8284271 12.8284271,13.5 12,13.5 C11.1715729,13.5 10.5,12.8284271 10.5,12 C10.5,11.1715729 11.1715729,10.5 12,10.5 Z"
@@ -246,8 +240,8 @@ export const gaming_svg = (
     xmlns="http://www.w3.org/2000/svg"
     fill="#000000"
   >
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
@@ -262,7 +256,7 @@ export const gaming_svg = (
 );
 export const news_svg = (
   <svg width="32px" height="32px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-    <g fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#000000" strokeLinecap="round" strokeLinejoin="round">
       <path d="M40.5 5.5H7.5c-1.1046 0-2 .8954-2 2v33c0 1.1046.8954 2 2 2h33c1.1046 0 2-.8954 2-2V7.5c0-1.1046-.8954-2-2-2Z"></path>
       <path d="M20.373 11.5005h16.502v5H20.373v-5Z"></path>
       <path d="M20.373 21.5h16.502v5H20.373v-5Z"></path>
@@ -276,8 +270,8 @@ export const news_svg = (
 
 export const sports_svg = (
   <svg width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000">
-    <g fill="none" stroke-width="0"></g>
-    <g stroke-linecap="round" stroke-linejoin="round"></g>
+    <g fill="none" strokeWidth="0"></g>
+    <g strokeLinecap="round" strokeLinejoin="round"></g>
     <g>
       <title>award</title>
       <path
@@ -289,8 +283,8 @@ export const sports_svg = (
 );
 export const fashionAndBeauty_svg = (
   <svg fill="#000000" width="32px" height="58px" viewBox="0 0 750 750" id="Layer_1" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       <path d="M397.82,659.88c-51.9,.93-39.76-21.24-58.4-56.87-9.54-14.91-21.69-29.03-37.62-37.25-37.25-13.32-63.62-6.29-52.8-57.68,3.07-18.28,11.03-35.23,15.89-53.04,4.91-15.96,5.45-32.53,5.32-49.1,1.01-45.58,9.89-91.34,1.6-136.69-3.47-31.29-10.26-62.03-19-92.23-4.04-19.88-29.38-50.3-6.38-65.71,11.34-2.65,23.37-.57,34.96-1.33,8.34-43.61,54.92,24.14,60.3,39.74,6.08,27.16,1.54,55.51,5.99,83,3.24,17.05,.75,75.4,30.68,51.68,14.41-7.33,26.03-99.77,27.34-119.13,.93-19.82,1.29-39.73,6.76-58.96,4.13-18.3,17.86-19.03,33.58-14.69,51.03,9.68,18.07,65.18,11.18,96.97-3.22,11.71-8.07,22.98-10.34,34.94-2.36,14.02-.79,28.25-.39,42.36,.65,26.01,1.87,51.99,4.32,77.9,2.98,32.93,5.94,66.86,20.91,96.88,6.62,13.99,16.11,26.37,24.96,39,5.82,7.56,13.69,14.33,15.57,24.12,4.17,18.45-7.19,28.09-23.52,33.34-15.85,7.71-32.71,13.86-47.22,24-19.74,14.85-14.21,43.44-18.02,65.16-1.35,16.41-3.21,38.58-25.67,33.6Zm0-17.81c2.61,.08,5.26,.23,7.87,.12-1.97-80.96-4.99-108.01,78.88-138.39-19.18-29.2-28.82-63.06-39.55-95.96-12.99-42.87-25.7-85.6-25.31-130.62,.22-24.14,.3-48.9,8.49-71.9,9.53-25.43,15.13-52.14,20.72-78.67-2.52-1.06-5.1-1.89-7.72-2.67-2.77-.6-5.55-1.16-8.35-1.62-10.15,35.6-16.92,71.81-21.99,108.43-3.56,19.74-1.9,40.22-7.32,59.61-5.38,16.15-20.3,29.21-37.08,32.19-25.15,4.03-35.32-26.37-38.6-46.13-3.2-28.88-2.53-58.11-4.87-87.1-.43-31.04-5.89-30.51-23.71-53.64-9.97,6.46-23.69,3.51-35.12,4.61,10.39,28.03,18.01,57.44,22.52,86.99,3.08,34.67,4.22,69.51,5.44,104.29,2.07,34.69,6.77,69.57,4.08,104.33-2.66,31-24.65,56.53-27.46,87.21,13.22,2.17,27.04,1.79,39.81,6.24,30.28,11.47,48.11,42.78,55.57,72.86,7.79,27.62-3.2,40.13,33.7,39.81Z"></path>
     </g>
@@ -299,8 +293,8 @@ export const fashionAndBeauty_svg = (
 
 export const podcast_svg = (
   <svg width="32px" height="32px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
@@ -317,15 +311,15 @@ export const podcast_svg = (
 
 export const your_vedio_svg = (
   <svg viewBox="0 0 24 24" fill="none" width="24px" height="24px" xmlns="http://www.w3.org/2000/svg">
-    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
     <g id="SVGRepo_iconCarrier">
       {" "}
       <path
         d="M3 12L3 18.9671C3 21.2763 5.53435 22.736 7.59662 21.6145L10.7996 19.8727M3 8L3 5.0329C3 2.72368 5.53435 1.26402 7.59661 2.38548L20.4086 9.35258C22.5305 10.5065 22.5305 13.4935 20.4086 14.6474L14.0026 18.131"
         stroke="#000000"
-        stroke-width="1.5"
-        stroke-linecap="round"
+        strokeWidth="1.5"
+        strokeLinecap="round"
       ></path>{" "}
     </g>
   </svg>
