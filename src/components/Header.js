@@ -20,7 +20,6 @@ const Header = () => {
           Search
         </button>
       </div>
-
       {/* User Icon */}
       <div className="flex">
         <img src={user_icon} alt="user-icon" className="h-20 -mt-4 ml-[40rem]" />

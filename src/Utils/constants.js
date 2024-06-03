@@ -13,7 +13,7 @@ export const FilterList = [
   "Algorithms",
 ];
 
-export const API_KEY = "AIzaSyDM3Y7M4_e-cya5TH9NHDxq1QIoy5proUc";
+export const API_KEY = "AIzaSyD9FML2HWQToS7bcPp1q-2ba-b4ahj8fTE";
 
 export function timeAgo(date) {
   const now = new Date();
