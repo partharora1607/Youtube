@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { API_KEY } from "../Utils/constants";
 import { useDispatch } from "react-redux";
-import { updateVedios } from "../Utils/Store/Slice/vedioSlice";
+import { addVedios, updateVedios } from "../Utils/Store/Slice/vedioSlice";
 const useFetchVedio = () => {
   const dispatch = useDispatch();
 
@@ -10,13 +10,12 @@ const useFetchVedio = () => {
   }, []);
 
   const fetchData = async () => {
-    const data = await fetch(
+    const dataIN = await fetch(
       "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=100&regionCode=IN&key=" +
         API_KEY
     );
-    const json = await data.json();
-    dispatch(updateVedios(json?.items));
-    // console.log(json);
+    const jsonIN = await dataIN.json();
+    dispatch(addVedios(jsonIN?.items));
   };
 };
 

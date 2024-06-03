@@ -10,3 +10,8 @@
 ->FilterList
 ->VedioList
 ->VedioCards
+->React Router Dom
+->Redux Store
+->Slice
+-> vedio Slice
+->Watch Page

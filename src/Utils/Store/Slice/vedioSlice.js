@@ -3,15 +3,15 @@ import { createSlice } from "@reduxjs/toolkit";
 const vedioSlice = createSlice({
   name: "vedio",
   initialState: {
-    vedioList: null,
+    vedioList: [],
   },
   reducers: {
-    updateVedios: (state, action) => {
-      state.vedioList = action.payload;
+    addVedios: (state, action) => {
+      state.vedioList.push(...action.payload);
     },
   },
 });
 
-export const { updateVedios } = vedioSlice.actions;
+export const { addVedios } = vedioSlice.actions;
 
 export default vedioSlice.reducer;
