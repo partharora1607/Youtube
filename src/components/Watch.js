@@ -1,4 +1,5 @@
 import { useSearchParams } from "react-router-dom";
+import CommentsContainer from "./CommentsConatiner";
 
 const Watch = () => {
   const [searchParams] = useSearchParams();
@@ -16,6 +17,9 @@ const Watch = () => {
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         ></iframe>
+        <div>
+          <CommentsContainer />
+        </div>
       </div>
     </>
   );
