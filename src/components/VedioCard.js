@@ -4,10 +4,8 @@ import { truncateTitle } from "../Utils/constants";
 
 const VedioCard = (props) => {
   const { snippet, statistics } = props.vedio;
-  const { channelTitle, title, thumbnails, channelId, publishedAt } = snippet;
+  const { channelTitle, title, thumbnails, publishedAt } = snippet;
   const { viewCount } = statistics;
-
-  console.log(props);
 
   return (
     <div className="inline-block p-2 w-[24.23rem] mr-5 mb-3 hover:cursor-pointer ml-3 hover:bg-gray-100 hover:shadow-lg">

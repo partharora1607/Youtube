@@ -13,6 +13,7 @@ export const FilterList = [
   "Algorithms",
 ];
 
+export const YT_SUGGESTION_API = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
 export const API_KEY = "AIzaSyD9FML2HWQToS7bcPp1q-2ba-b4ahj8fTE";
 
 export function timeAgo(date) {

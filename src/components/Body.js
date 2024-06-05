@@ -5,11 +5,11 @@ import SideBar from "./SideBar";
 const Body = () => {
   return (
     <div>
-      <div className="shadow-xl">
+      <div>
         <Header />
       </div>
       <div className="">
-        <div className="fixed bg-gray-800 bg-opacity-80 left-0 top-[5rem] h-full overflow-y-auto text-xl w-[280px] py-5 mr-10 font-sans mt-3">
+        <div className="fixed left-0 top-[5rem] h-full overflow-y-auto text-xl w-[280px] py-5 mr-10 font-sans mt-3">
           <SideBar />
         </div>
         <div>

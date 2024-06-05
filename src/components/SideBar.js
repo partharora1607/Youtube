@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
-    <div className="text-xl text-white w-[280px] py-5 overflow-y-auto h-[70rem] mr-10 font-sans custom-scrollbar-hide -mt-10">
+    <div className="text-xl text-gray-800 w-[280px] py-5 overflow-y-auto h-[70rem] mr-10 font-sans custom-scrollbar-hide -mt-10">
       <div className="my-5 px-10 ">
         <ul>
           <div className="flex">

@@ -10,8 +10,8 @@ const VedioList = () => {
 
   return (
     <div className="flex flex-wrap">
-      {VedioList.map((vedio) => (
-        <Link to={"/watch?v=" + vedio.id} key={vedio.id}>
+      {VedioList.map((vedio, idx) => (
+        <Link to={"/watch?v=" + vedio.id} key={vedio.id + idx}>
           <VedioCard vedio={vedio} />
         </Link>
       ))}
