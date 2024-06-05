@@ -2,16 +2,25 @@ import { useEffect, useState } from "react";
 import Logo from "../images/Logo.png";
 import user_icon from "../images/user_icon.jpg";
 import { YT_SUGGESTION_API } from "../Utils/constants";
+import { useDispatch, useSelector } from "react-redux";
+import { cacheResults } from "../Utils/Store/Slice/searchSlice";
 
 const Header = () => {
   const [searchText, setSearchText] = useState("");
   const [suggestion, setSuggestions] = useState([]);
   const [showSuggestion, setShowSuggestion] = useState(false);
 
+  const searchCache = useSelector((store) => store.search);
+  const dispatch = useDispatch();
+
   useEffect(() => {
     const timer = setTimeout(() => {
-      fetchSuggestion();
-    }, 50);
+      if (searchCache[searchText]) {
+        setSuggestions(searchCache[searchText]);
+      } else {
+        fetchSuggestion();
+      }
+    }, 200);
 
     return () => {
       clearTimeout(timer);
@@ -22,6 +31,13 @@ const Header = () => {
     const newSuggestion = await fetch(YT_SUGGESTION_API + searchText);
     const json = await newSuggestion.json();
     setSuggestions(json?.[1]);
+
+    // update in cache
+    dispatch(
+      cacheResults({
+        [searchText]: json?.[1],
+      })
+    );
   };
 
   return (
