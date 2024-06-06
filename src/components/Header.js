@@ -4,6 +4,7 @@ import user_icon from "../images/user_icon.jpg";
 import { YT_SUGGESTION_API } from "../Utils/constants";
 import { useDispatch, useSelector } from "react-redux";
 import { cacheResults } from "../Utils/Store/Slice/searchSlice";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [searchText, setSearchText] = useState("");
@@ -45,7 +46,9 @@ const Header = () => {
       <div className="mt-5 ml-10 flex pb-2 ">
         {/* Logo and Menu */}
         <div className="flex fixed">
-          <img alt="youtube-logo" src={Logo} className="h-[3rem] ml-7" />
+          <Link to="/">
+            <img alt="youtube-logo" src={Logo} className="h-[3rem] ml-7" />
+          </Link>
         </div>
 
         {/* Search Bar */}
