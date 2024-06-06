@@ -3,7 +3,7 @@ import ChatMessage from "./ChatMessage";
 import { useDispatch, useSelector } from "react-redux";
 import { addMessage } from "../Utils/Store/Slice/chatSlice";
 import { generateRandomName } from "../Utils/helper";
-import user_icon from "../images/user_icon.";
+import user_icon from "../images/user_icon.jpg";
 
 const LiveChat = () => {
   const dispatch = useDispatch();
