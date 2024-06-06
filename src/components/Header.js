@@ -20,7 +20,7 @@ const Header = () => {
       } else {
         fetchSuggestion();
       }
-    }, 200);
+    }, 100);
 
     return () => {
       clearTimeout(timer);
@@ -70,8 +70,8 @@ const Header = () => {
           </button>
         </div>
         {/* User Icon */}
-        <div className="flex">
-          <img src={user_icon} alt="user-icon" className="h-20 -mt-4 ml-[40rem]" />
+        <div className="flex justify-center items-center">
+          <img src={user_icon} alt="user-icon" className="h-14 w-14 -mt-4 ml-[50rem] rounded-full object-cover" />
         </div>
       </div>
       {suggestion.length > 0 && showSuggestion && (

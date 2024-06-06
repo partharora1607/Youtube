@@ -2,24 +2,24 @@ import user_icon from "../images/user_icon.jpg";
 
 const CommentsData = [
   {
-    name: "Parth Arora",
+    name: "Parth Arora ",
     Text: "Why do you use React instead of Next.js?",
     replies: [],
   },
   {
-    name: "Parth Arora",
+    name: "Parth Arora ",
     Text: "Why do you use React instead of Next.js?",
     replies: [
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [
           {
-            name: "Parth Arora",
+            name: "Parth Arora ",
             Text: "Why do you use React instead of Next.js?",
             replies: [
               {
-                name: "Parth Arora",
+                name: "Parth Arora ",
                 Text: "Why do you use React instead of Next.js?",
                 replies: [],
               },
@@ -28,53 +28,53 @@ const CommentsData = [
         ],
       },
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [],
       },
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [
           {
-            name: "Parth Arora",
+            name: "Parth Arora ",
             Text: "Why do you use React instead of Next.js?",
             replies: [],
           },
         ],
       },
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [],
       },
     ],
   },
   {
-    name: "Parth Arora",
+    name: "Parth Arora ",
     Text: "Why do you use React instead of Next.js?",
     replies: [],
   },
   {
-    name: "Parth Arora",
+    name: "Parth Arora ",
     Text: "Why do you use React instead of Next.js?",
     replies: [
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [],
       },
       {
-        name: "Parth Arora",
+        name: "Parth Arora ",
         Text: "Why do you use React instead of Next.js?",
         replies: [
           {
-            name: "Parth Arora",
+            name: "Parth Arora ",
             Text: "Why do you use React instead of Next.js?",
             replies: [],
           },
           {
-            name: "Parth Arora",
+            name: "Parth Arora ",
             Text: "Why do you use React instead of Next.js?",
             replies: [],
           },
@@ -83,7 +83,7 @@ const CommentsData = [
     ],
   },
   {
-    name: "Parth Arora",
+    name: "Parth Arora ",
     Text: "Why do you use React instead of Next.js?",
     replies: [],
   },

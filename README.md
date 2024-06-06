@@ -33,5 +33,7 @@
 
                     (UI get data after every time intervals)
 
+    example : Trading Apps , Watsapp
+
 2.  API Polling -> (UI) <----1 directional--- (Server)
-    example : Gmail
+    example : Gmail , cricbuzz, football
