@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const SideBar = () => {
   return (
-    <div className="text-xl text-gray-800 w-[280px] py-5 overflow-y-auto h-[70rem] mr-10 font-sans custom-scrollbar-hide -mt-10">
+    <div className="text-xl text-gray-800 w-[280px] py-5  overflow-y-auto h-full mr-10 font-sans custom-scrollbar-hide -mt-10">
       <div className="my-5 px-10 ">
         <ul>
           <div className="flex">
@@ -21,8 +21,8 @@ const SideBar = () => {
           </div>
         </ul>
       </div>
-      <div className="my-10 px-10">
-        <h1 className="my-6 font-bold">You</h1>
+      <div className="my-10 px-10 divide-y">
+        <h1 className="my-6 font-bold">You </h1>
         <ul>
           <div className="flex my-6">
             <div className="sidebar-icon"></div>
@@ -50,27 +50,36 @@ const SideBar = () => {
           </div>
         </ul>
       </div>
-      {/* <div className="my-10 px-10">
+      <div className="my-10 px-10 divide-y">
         <h1 className="my-6 font-bold">Subscriptions</h1>
         <ul>
           <div className="flex my-6">
-            <div className="sidebar-icon">And TV</div>
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">StudyIQ IAS</div>
           </div>
           <div className="flex my-6">
-            <div className="sidebar-icon">Hindusthan Times</div>
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">Hindusthan Times</div>
           </div>
           <div className="flex my-6">
-            <div className="sidebar-icon">WION</div>
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">WION</div>
           </div>
           <div className="flex my-6">
-            <div className="sidebar-icon">NDTV</div>
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">Zee News</div>
           </div>
           <div className="flex my-6">
-            <div className="sidebar-icon">Zee News</div>
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">NDTV</div>
+          </div>
+          <div className="flex my-6">
+            <div className="sidebar-icon"></div>
+            <div className="sidebar-label ml-4">Physics Walla</div>
           </div>
         </ul>
-      </div> */}
-      <div className="my-10 px-10">
+      </div>
+      <div className="my-10 px-10 divide-y">
         <h1 className="my-6 font-bold">Explore</h1>
         <ul>
           <div className="flex my-6">
